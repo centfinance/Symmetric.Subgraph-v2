@@ -36,10 +36,10 @@ mainnet:
 celo:
   network: celo
   Vault:
-    address: "0xBaCB07678Ab8Fe8236cC6B52Fa8B96DFC278439B"
+    address: "0xe9265892b5c56264d60e26451862b576814185c9"
     startBlock: 10978412
   WeightedPoolFactory:
-    address: "0x5463374B7127dcDdfD68B3A437f53CDF1B4A5264"
+    address: "0x65823FD346325Dc131268555fE7aE2Be1919f83b"
     startBlock: 10978625
   # WeightedPool2TokenFactory:
   #   address: "0xA5bf2ddF098bb0Ef6d120C98217dD6B141c74EE0"
