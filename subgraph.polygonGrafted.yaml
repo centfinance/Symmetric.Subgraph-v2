@@ -1,9 +1,9 @@
 specVersion: 0.0.2
-description: Balancer is a non-custodial portfolio manager, liquidity provider, and price sensor.
+description: Symmetric is a non-custodial portfolio manager, liquidity provider, and price sensor.
 graft:
   base: QmPMtE2kTdnpJxBDix65gK4pZgtdgTe8qyzDktQTTjc1Zi
   block: 22067480
-repository: https://github.com/balancer-labs/balancer-subgraph-v2
+repository: https://github.com/centfinance/Symmetric.Subgraph-v2
 schema:
   file: ./schema.graphql
 dataSources:
