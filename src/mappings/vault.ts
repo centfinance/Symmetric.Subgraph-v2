@@ -59,8 +59,8 @@ export function handleInternalBalanceChange(event: InternalBalanceChanged): void
  ************************************/
 
 export function handleBalanceChange(event: PoolBalanceChanged): void {
-  let amounts: BigInt[] = event.params.deltas;
-
+  let amounts: BigInt[] | null = event.params.deltas;
+  if (!amounts) return
   if (amounts.length === 0) {
     return;
   }

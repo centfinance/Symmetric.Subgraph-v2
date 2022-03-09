@@ -15,6 +15,7 @@ export class AddressByNetwork {
   public rinkeby: string;
   public polygon: string;
   public arbitrum: string;
+  public celo: string;
   public dev: string;
 }
 
@@ -27,6 +28,7 @@ let vaultAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
   polygon: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
   arbitrum: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0xa0B05b20e511B1612E908dFCeE0E407E22B76028',
 };
 
@@ -37,6 +39,7 @@ let wethAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1',
   polygon: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
   arbitrum: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x4CDDb3505Cf09ee0Fa0877061eB654839959B9cd',
 };
 
@@ -47,6 +50,7 @@ let wbtcAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
   arbitrum: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0xcD80986f08d776CE41698c47f705CDc99dDBfB0A',
 };
 
@@ -57,6 +61,7 @@ let usdAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
   arbitrum: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x1528f3fcc26d13f7079325fb78d9442607781c8c',
 };
 
@@ -67,6 +72,7 @@ let usdcAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
   arbitrum: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x7c0c5AdA758cf764EcD6bAC05b63b2482f90bBB2',
 };
 
@@ -77,6 +83,7 @@ let usdtAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
   arbitrum: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x7c0c5AdA758cf764EcD6bAC05b63b2482f90bBB2',
 };
 
@@ -87,6 +94,7 @@ let balAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3',
   arbitrum: '0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0xf702269193081364E355f862f2CFbFCdC5DB738C',
 };
 
@@ -97,6 +105,7 @@ let daiAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
   arbitrum: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x5C0E66606eAbEC1df45E2ADd26C5DF8C0895a397',
 };
 
@@ -107,6 +116,7 @@ let altDaiAddressByNetwork: AddressByNetwork = {
   rinkeby: '0x0000000000000000000000000000000000000000',
   polygon: '0x0000000000000000000000000000000000000000',
   arbitrum: '0x0000000000000000000000000000000000000000',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
 };
 
@@ -117,6 +127,7 @@ let altUsdcAddressByNetwork: AddressByNetwork = {
   rinkeby: '0x0000000000000000000000000000000000000000',
   polygon: '0x0000000000000000000000000000000000000000',
   arbitrum: '0x0000000000000000000000000000000000000000',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
 };
 
@@ -127,6 +138,7 @@ let altUsdtAddressByNetwork: AddressByNetwork = {
   rinkeby: '0x0000000000000000000000000000000000000000',
   polygon: '0x0000000000000000000000000000000000000000',
   arbitrum: '0x0000000000000000000000000000000000000000',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
 };
 
@@ -137,6 +149,7 @@ let linearDaiAddressByNetwork: AddressByNetwork = {
   rinkeby: '0x0000000000000000000000000000000000000000',
   polygon: '0x0000000000000000000000000000000000000000',
   arbitrum: '0x0000000000000000000000000000000000000000',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
 };
 
@@ -147,6 +160,7 @@ let linearUsdcAddressByNetwork: AddressByNetwork = {
   rinkeby: '0x0000000000000000000000000000000000000000',
   polygon: '0x0000000000000000000000000000000000000000',
   arbitrum: '0x0000000000000000000000000000000000000000',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
 };
 
@@ -157,6 +171,7 @@ let linearUsdtAddressByNetwork: AddressByNetwork = {
   rinkeby: '0x0000000000000000000000000000000000000000',
   polygon: '0x0000000000000000000000000000000000000000',
   arbitrum: '0x0000000000000000000000000000000000000000',
+  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
 };
 
@@ -173,6 +188,8 @@ function forNetwork(addressByNetwork: AddressByNetwork, network: string): Addres
     return Address.fromString(addressByNetwork.polygon);
   } else if (network == 'arbitrum-one') {
     return Address.fromString(addressByNetwork.arbitrum);
+  } else if (network == 'celo') {
+    return Address.fromString(addressByNetwork.celo);
   } else {
     return Address.fromString(addressByNetwork.dev);
   }
