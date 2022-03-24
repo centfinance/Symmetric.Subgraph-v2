@@ -41,9 +41,9 @@ celo:
   WeightedPoolFactory:
     address: "0x65823FD346325Dc131268555fE7aE2Be1919f83b"
     startBlock: 11765216
-  # WeightedPool2TokenFactory:
-  #   address: "0xA5bf2ddF098bb0Ef6d120C98217dD6B141c74EE0"
-  #   startBlock: 12272146
+  WeightedPool2TokenFactory:
+    address: "0x15bBc9BB2b7C46DD618fC487d959c7395F2E7b0D"
+    startBlock: 12272146
   StablePoolFactory:
     address: "0x8A217be3f8745efc522C49C66e1618699AF5bFAD"
     startBlock: 10978820
