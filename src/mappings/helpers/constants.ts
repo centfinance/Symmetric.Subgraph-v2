@@ -39,7 +39,7 @@ let wethAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1',
   polygon: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
   arbitrum: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
-  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
+  celo: '0xE919F65739c26a42616b7b8eedC6b5524d1e3aC4',
   dev: '0x4CDDb3505Cf09ee0Fa0877061eB654839959B9cd',
 };
 
@@ -50,7 +50,7 @@ let wbtcAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
   arbitrum: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
-  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
+  celo: '0xBe50a3013A1c94768A1ABb78c3cB79AB28fc1aCE',
   dev: '0xcD80986f08d776CE41698c47f705CDc99dDBfB0A',
 };
 
@@ -61,7 +61,7 @@ let usdAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
   arbitrum: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
-  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
+  celo: '0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1',
   dev: '0x1528f3fcc26d13f7079325fb78d9442607781c8c',
 };
 
@@ -94,7 +94,7 @@ let balAddressByNetwork: AddressByNetwork = {
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3',
   arbitrum: '0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8',
-  celo: '0xE9265892B5c56264d60e26451862B576814185C9',
+  celo: '0x8427bD503dd3169cCC9aFF7326c15258Bc305478',
   dev: '0xf702269193081364E355f862f2CFbFCdC5DB738C',
 };
 
