@@ -68,6 +68,41 @@ celo:
   # AaveLinearPoolFactory:
   #   address: "0xD7FAD3bd59D6477cbe1BE7f646F7f1BA25b230f8"
   #   startBlock: 13766443
+xdai:
+  network: xdai
+  Vault:
+    address: "0x901E0dC02f64C42F73F0Bdbf3ef21aFc96CF50be"
+    startBlock: 21343990
+  WeightedPoolFactory:
+    address: "0xEF2B92846D55a16E32f0637C7ff132Cd01DF4a88"
+    startBlock: 21343990
+  WeightedPool2TokenFactory:
+    address: "0xBE06783f7a02cFF726c0d4A6F11e8B3c237030a3"
+    startBlock: 21343990
+  StablePoolFactory:
+    address: "0xBF893f0e1b6F6eFd5D177E02d8964cFF8faDC6e0"
+    startBlock: 21343990
+  # MetaStablePoolFactory:
+  #   address: "0x67d27634E44793fE63c467035E31ea8635117cd4"
+  #   startBlock: 13011941
+  LiquidityBootstrappingPoolFactory:
+    address: "0xECD925bbE9B4630C4D8A0712825bB19de6F335A2"
+    startBlock: 21343990
+  # TempLiquidityBootstrappingPoolFactory:
+  #   address: "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
+  #   startBlock: 13730248
+  # InvestmentPoolFactory:
+  #   address: "0x48767F9F868a4A7b86A90736632F6E44C2df7fa9"
+  #   startBlock: 13279079
+  # ConvergentPoolFactory:
+  #   address: "0xb7561f547F3207eDb42A6AfA42170Cd47ADD17BD"
+  #   startBlock: 12686198
+  # StablePhantomPoolFactory:
+  #   address: "0xb08E16cFc07C684dAA2f93C70323BAdb2A6CBFd2"
+  #   startBlock: 13766527
+  # AaveLinearPoolFactory:
+  #   address: "0xD7FAD3bd59D6477cbe1BE7f646F7f1BA25b230f8"
+  #   startBlock: 13766443
 kovan:
   network: kovan
   Vault:
