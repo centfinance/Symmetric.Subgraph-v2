@@ -114,7 +114,7 @@ let daiAddressByNetwork: AddressByNetwork = {
   polygon: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
   arbitrum: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
   celo: '0xE9265892B5c56264d60e26451862B576814185C9',
-  xdai: '',
+  xdai: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x5C0E66606eAbEC1df45E2ADd26C5DF8C0895a397',
 };
 
