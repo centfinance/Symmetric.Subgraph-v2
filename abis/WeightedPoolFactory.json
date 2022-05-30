@@ -44,6 +44,23 @@
   {
     "type": "function",
     "stateMutability": "view",
+    "outputs": [{ "type": "bytes", "name": "", "internalType": "bytes" }],
+    "name": "getCreationCode",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      { "type": "address", "name": "contractA", "internalType": "address" },
+      { "type": "address", "name": "contractB", "internalType": "address" }
+    ],
+    "name": "getCreationCodeContracts",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
     "outputs": [
       {
         "type": "uint256",
