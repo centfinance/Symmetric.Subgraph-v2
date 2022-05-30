@@ -36,23 +36,23 @@ mainnet:
 celo:
   network: celo
   Vault:
-    address: "0xE7E1573c32859Dc022001f3ee5a3bcdCEb921C9d"
-    startBlock: 11851133
+    address: "0xD25E02047E76b688445ab154785F2642c6fe3f73"
+    startBlock: 13179948
   WeightedPoolFactory:
-    address: "0x2c801aEcfD7c6C5cCDC7F5f7101eC151ed193800"
-    startBlock: 11851314
+    address: "0x47B7bdA16AB8B617E976c83A2c3c8664944d8Ed2"
+    startBlock: 13179974
   WeightedPool2TokenFactory:
-    address: "0x15bBc9BB2b7C46DD618fC487d959c7395F2E7b0D"
-    startBlock: 11872059
+    address: "0x02Cc1Be7516a155C37A8E2832263533317dD83F0"
+    startBlock: 13180757
   StablePoolFactory:
-    address: "0x9306CFC89ee281Ae23492Ec8AC5f1617374786dE"
-    startBlock: 11992716
+    address: "0x7dF194500b8b8dcFe6A0b8E412f8a166c89Bf255"
+    startBlock: 13180017
   # MetaStablePoolFactory:
   #   address: "0x67d27634E44793fE63c467035E31ea8635117cd4"
   #   startBlock: 13011941
   LiquidityBootstrappingPoolFactory:
-    address: "0xdF87a2369FAa3140613c3C5D008A9F50B3303fD3"
-    startBlock: 11117824
+    address: "0xe007Ba1c5665567175B4d462f8dba14506e7f592"
+    startBlock: 13180041
   # TempLiquidityBootstrappingPoolFactory:
   #   address: "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
   #   startBlock: 13730248

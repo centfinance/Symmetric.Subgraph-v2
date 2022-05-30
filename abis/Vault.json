@@ -615,7 +615,7 @@
       {
         "type": "address",
         "name": "",
-        "internalType": "contract ProtocolFeesCollector"
+        "internalType": "contract IProtocolFeesCollector"
       }
     ],
     "name": "getProtocolFeesCollector",
