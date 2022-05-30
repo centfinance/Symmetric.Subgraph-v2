@@ -8,9 +8,9 @@ dataSources:
     name: Vault
     network: celo
     source:
-      address: '0xE7E1573c32859Dc022001f3ee5a3bcdCEb921C9d'
+      address: '0xD25E02047E76b688445ab154785F2642c6fe3f73'
       abi: Vault
-      startBlock: 11851133
+      startBlock: 13179948
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -49,9 +49,9 @@ dataSources:
     name: WeightedPoolFactory
     network: celo
     source:
-      address: '0x2c801aEcfD7c6C5cCDC7F5f7101eC151ed193800'
+      address: '0x47B7bdA16AB8B617E976c83A2c3c8664944d8Ed2'
       abi: WeightedPoolFactory
-      startBlock: 11851314
+      startBlock: 13179974
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -76,9 +76,9 @@ dataSources:
     name: WeightedPool2TokenFactory
     network: celo
     source:
-      address: '0x15bBc9BB2b7C46DD618fC487d959c7395F2E7b0D'
+      address: '0x02Cc1Be7516a155C37A8E2832263533317dD83F0'
       abi: WeightedPoolFactory
-      startBlock: 11872059
+      startBlock: 13180757
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -103,9 +103,9 @@ dataSources:
     name: StablePoolFactory
     network: celo
     source:
-      address: '0x9306CFC89ee281Ae23492Ec8AC5f1617374786dE'
+      address: '0x7dF194500b8b8dcFe6A0b8E412f8a166c89Bf255'
       abi: StablePoolFactory
-      startBlock: 11992716
+      startBlock: 13180017
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -130,9 +130,9 @@ dataSources:
     name: LiquidityBootstrappingPoolFactory
     network: celo
     source:
-      address: '0xdF87a2369FAa3140613c3C5D008A9F50B3303fD3'
+      address: '0xe007Ba1c5665567175B4d462f8dba14506e7f592'
       abi: LiquidityBootstrappingPoolFactory
-      startBlock: 11117824
+      startBlock: 13180041
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
