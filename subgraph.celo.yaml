@@ -76,7 +76,7 @@ dataSources:
     name: WeightedPool2TokenFactory
     network: celo
     source:
-      address: '0x02Cc1Be7516a155C37A8E2832263533317dD83F0'
+      address: '0x88130371F154e6E17CA3292a57269618a1b4503a'
       abi: WeightedPoolFactory
       startBlock: 13180757
     mapping:
