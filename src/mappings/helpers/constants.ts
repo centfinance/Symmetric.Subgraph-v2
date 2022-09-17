@@ -18,6 +18,7 @@ export class AddressByNetwork {
   public celo: string;
   public xdai: string;
   public dev: string;
+  public kava: string;
 }
 
 let network: string = dataSource.network();
@@ -32,6 +33,7 @@ let vaultAddressByNetwork: AddressByNetwork = {
   celo: '0xD25E02047E76b688445ab154785F2642c6fe3f73',
   xdai: '0x24F87b37F4F249Da61D89c3FF776a55c321B2773',
   dev: '0xa0B05b20e511B1612E908dFCeE0E407E22B76028',
+  kava: '0xA18808989E7EB0FcF0932fd00D007F3C118B78E7',
 };
 
 let wethAddressByNetwork: AddressByNetwork = {
@@ -44,6 +46,7 @@ let wethAddressByNetwork: AddressByNetwork = {
   celo: '0xE919F65739c26a42616b7b8eedC6b5524d1e3aC4',
   xdai: '0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1',
   dev: '0x4CDDb3505Cf09ee0Fa0877061eB654839959B9cd',
+  kava: '0x4c7deaEA2257E21B34916E75b1E781f674AE10f2',
 };
 
 let wbtcAddressByNetwork: AddressByNetwork = {
@@ -56,6 +59,7 @@ let wbtcAddressByNetwork: AddressByNetwork = {
   celo: '0xBAAB46E28388d2779e6E31Fd00cF0e5Ad95E327B',
   xdai: '0x8e5bBbb09Ed1ebdE8674Cda39A0c169401db4252',
   dev: '0xcD80986f08d776CE41698c47f705CDc99dDBfB0A',
+  kava: '0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b',
 };
 
 let usdAddressByNetwork: AddressByNetwork = {
@@ -68,6 +72,7 @@ let usdAddressByNetwork: AddressByNetwork = {
   celo: '0x765DE816845861e75A25fCA122bb6898B8B1282a', // cUSD
   xdai: '0x4ECaBa5870353805a9F068101A40E0f32ed605C6',
   dev: '0x1528f3fcc26d13f7079325fb78d9442607781c8c',
+  kava: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C', //USDT
 };
 
 let usdcAddressByNetwork: AddressByNetwork = {
@@ -80,6 +85,7 @@ let usdcAddressByNetwork: AddressByNetwork = {
   celo: '0x765DE816845861e75A25fCA122bb6898B8B1282a',
   xdai: '0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83',
   dev: '0x7c0c5AdA758cf764EcD6bAC05b63b2482f90bBB2',
+  kava: '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
 };
 
 let usdtAddressByNetwork: AddressByNetwork = {
@@ -92,6 +98,7 @@ let usdtAddressByNetwork: AddressByNetwork = {
   celo: '0x765DE816845861e75A25fCA122bb6898B8B1282a',
   xdai: '0x4ECaBa5870353805a9F068101A40E0f32ed605C6',
   dev: '0x7c0c5AdA758cf764EcD6bAC05b63b2482f90bBB2',
+  kava: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
 };
 
 let balAddressByNetwork: AddressByNetwork = {
@@ -104,6 +111,7 @@ let balAddressByNetwork: AddressByNetwork = {
   celo: '0x8427bD503dd3169cCC9aFF7326c15258Bc305478',
   xdai: '0xC45b3C1c24d5F54E7a2cF288ac668c74Dd507a84',
   dev: '0xf702269193081364E355f862f2CFbFCdC5DB738C',
+  kava: '0x335826a0373d479e1de544d1c3E37EE3E065DbB9',
 };
 
 let daiAddressByNetwork: AddressByNetwork = {
@@ -116,6 +124,7 @@ let daiAddressByNetwork: AddressByNetwork = {
   celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   xdai: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x5C0E66606eAbEC1df45E2ADd26C5DF8C0895a397',
+  kava: '0xE9265892B5c56264d60e26451862B576814185C9',
 };
 
 let altDaiAddressByNetwork: AddressByNetwork = {
@@ -128,6 +137,7 @@ let altDaiAddressByNetwork: AddressByNetwork = {
   celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   xdai: '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d',
   dev: '0x0000000000000000000000000000000000000000',
+  kava: '0x0000000000000000000000000000000000000000',
 };
 
 let altUsdcAddressByNetwork: AddressByNetwork = {
@@ -140,6 +150,7 @@ let altUsdcAddressByNetwork: AddressByNetwork = {
   celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   xdai: '0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83',
   dev: '0x0000000000000000000000000000000000000000',
+  kava: '0x0000000000000000000000000000000000000000',
 };
 
 let altUsdtAddressByNetwork: AddressByNetwork = {
@@ -152,6 +163,7 @@ let altUsdtAddressByNetwork: AddressByNetwork = {
   celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   xdai: '0x4ECaBa5870353805a9F068101A40E0f32ed605C6',
   dev: '0x0000000000000000000000000000000000000000',
+  kava: '0x0000000000000000000000000000000000000000',
 };
 
 let linearDaiAddressByNetwork: AddressByNetwork = {
@@ -164,6 +176,7 @@ let linearDaiAddressByNetwork: AddressByNetwork = {
   celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   xdai: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
+  kava: '0x0000000000000000000000000000000000000000',
 };
 
 let linearUsdcAddressByNetwork: AddressByNetwork = {
@@ -176,6 +189,7 @@ let linearUsdcAddressByNetwork: AddressByNetwork = {
   celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   xdai: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
+  kava: '0x0000000000000000000000000000000000000000',
 };
 
 let linearUsdtAddressByNetwork: AddressByNetwork = {
@@ -188,6 +202,7 @@ let linearUsdtAddressByNetwork: AddressByNetwork = {
   celo: '0xE9265892B5c56264d60e26451862B576814185C9',
   xdai: '0xE9265892B5c56264d60e26451862B576814185C9',
   dev: '0x0000000000000000000000000000000000000000',
+  kava: '0x0000000000000000000000000000000000000000',
 };
 
 function forNetwork(addressByNetwork: AddressByNetwork, network: string): Address {
@@ -207,6 +222,8 @@ function forNetwork(addressByNetwork: AddressByNetwork, network: string): Addres
     return Address.fromString(addressByNetwork.celo);
   } else if (network == 'xdai') {
     return Address.fromString(addressByNetwork.xdai);
+  } else if (network == 'kava') {
+    return Address.fromString(addressByNetwork.kava);
   } else {
     return Address.fromString(addressByNetwork.dev);
   }
