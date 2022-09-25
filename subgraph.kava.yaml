@@ -10,7 +10,7 @@ dataSources:
     source:
       address: '0xA18808989E7EB0FcF0932fd00D007F3C118B78E7'
       abi: Vault
-      startBlock: 850238
+      startBlock: 1499900
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -49,9 +49,9 @@ dataSources:
     name: WeightedPoolFactory
     network: kava-evm
     source:
-      address: '0x3B319A033C5badFC6CE77Bce71BbBa87bAa2CFcB'
+      address: '0x0a0717A8A0641eA3C4eB82Aa9D82F07Ad887750b'
       abi: WeightedPoolFactory
-      startBlock: 850238
+      startBlock: 1499900
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -78,7 +78,7 @@ dataSources:
     source:
       address: '0x7e9871bd50A5fe311D7dFC19f8D232d7c4cF1116'
       abi: WeightedPoolFactory
-      startBlock: 850238
+      startBlock: 1499900
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -105,7 +105,7 @@ dataSources:
     source:
       address: '0x8628Ab9f1E7113abC29fDc05c9c37d9B8FcEb4e9'
       abi: StablePoolFactory
-      startBlock: 850238
+      startBlock: 1499900
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -132,7 +132,7 @@ dataSources:
     source:
       address: '0x3a62327c3C05606De1Bf48226ac5f20E109bA16B'
       abi: LiquidityBootstrappingPoolFactory
-      startBlock: 850238
+      startBlock: 1499900
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5

@@ -85,7 +85,10 @@ function handlePoolJoined(event: PoolBalanceChanged): void {
     return;
   }
   let tokenAddresses = pool.tokensList;
-
+  if (tokenAddresses.length < 1) {
+    log.warning('Tokens List not found in handlePoolJoined: {} {}', [poolId, transactionHash.toHexString()]);
+    return;
+  }
   let joinId = transactionHash.toHexString().concat(logIndex.toString());
   let join = new JoinExit(joinId);
   join.sender = event.params.liquidityProvider;
