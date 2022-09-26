@@ -1,10 +1,10 @@
-import { ZERO_BD, VAULT_ADDRESS, ZERO } from './helpers/constants';
+import { ZERO_BD, ZERO } from './helpers/constants';
 import { PoolType } from './helpers/pools';
 
 import { newPoolEntity, createPoolTokenEntity, scaleDown, getBalancerSnapshot, tokenToDecimal } from './helpers/misc';
 import { updatePoolWeights } from './helpers/weighted';
 
-import { BigInt, Address, Bytes, BigDecimal } from '@graphprotocol/graph-ts';
+import { BigInt, Address, Bytes, BigDecimal, log } from '@graphprotocol/graph-ts';
 import { PoolCreated } from '../types/WeightedPoolFactory/WeightedPoolFactory';
 import { Balancer, Pool } from '../types/schema';
 
@@ -43,7 +43,7 @@ function createWeightedLikePool(event: PoolCreated, poolType: string): string {
   pool.factory = event.address;
   pool.owner = owner;
 
-  let vaultContract = Vault.bind(VAULT_ADDRESS);
+  let vaultContract = Vault.bind(poolContract.try_getVault().value);
   let tokensCall = vaultContract.try_getPoolTokens(poolId);
 
   if (!tokensCall.reverted) {
@@ -53,6 +53,11 @@ function createWeightedLikePool(event: PoolCreated, poolType: string): string {
     for (let i: i32 = 0; i < tokens.length; i++) {
       createPoolTokenEntity(poolId.toHexString(), tokens[i]);
     }
+  } else {
+    log.warning('tokensCall.reverted! <><><><><><> in createWeightedLikePool: {} {}', [
+      poolContract.try_getVault().value.toHexString(),
+      poolId.toHexString(),
+    ]);
   }
   pool.save();
 
@@ -95,7 +100,7 @@ function createStableLikePool(event: PoolCreated, poolType: string): string {
   pool.factory = event.address;
   pool.owner = owner;
 
-  let vaultContract = Vault.bind(VAULT_ADDRESS);
+  let vaultContract = Vault.bind(poolContract.try_getVault().value);
   let tokensCall = vaultContract.try_getPoolTokens(poolId);
 
   if (!tokensCall.reverted) {
@@ -162,7 +167,7 @@ export function handleNewCCPPool(event: PoolCreated): void {
   pool.expiryTime = expiryTime;
   pool.unitSeconds = unitSeconds;
 
-  let vaultContract = Vault.bind(VAULT_ADDRESS);
+  let vaultContract = Vault.bind(poolContract.try_getVault().value);
   let tokensCall = vaultContract.try_getPoolTokens(poolId);
 
   if (!tokensCall.reverted) {
@@ -203,7 +208,7 @@ export function handleNewLinearPool(event: PoolCreated): void {
   pool.lowerTarget = tokenToDecimal(targetsCall.value.value0, 18);
   pool.upperTarget = tokenToDecimal(targetsCall.value.value1, 18);
 
-  let vaultContract = Vault.bind(VAULT_ADDRESS);
+  let vaultContract = Vault.bind(poolContract.try_getVault().value);
   let tokensCall = vaultContract.try_getPoolTokens(poolId);
 
   if (!tokensCall.reverted) {
