@@ -72,7 +72,7 @@ let usdAddressByNetwork: AddressByNetwork = {
   celo: '0x765DE816845861e75A25fCA122bb6898B8B1282a', // cUSD
   xdai: '0x4ECaBa5870353805a9F068101A40E0f32ed605C6',
   dev: '0x1528f3fcc26d13f7079325fb78d9442607781c8c',
-  kava: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C', //USDT
+  kava: '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f', // USDC
 };
 
 let usdcAddressByNetwork: AddressByNetwork = {
@@ -207,7 +207,7 @@ let linearUsdtAddressByNetwork: AddressByNetwork = {
 
 function forNetwork(addressByNetwork: AddressByNetwork, network: string): Address {
   if (network == 'mainnet') {
-    return Address.fromString(addressByNetwork.mainnet);
+    return Address.fromString(addressByNetwork.kava);
   } else if (network == 'kovan') {
     return Address.fromString(addressByNetwork.kovan);
   } else if (network == 'goerli') {

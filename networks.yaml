@@ -307,7 +307,7 @@ polygonGrafted:
     address: "0xdcdbf71A870cc60C6F9B621E28a7D3Ffd6Dd4965"
     startBlock: 3681582
 kava:
-  network: kava
+  network: mainnet
   Vault:
     address: "0xA18808989E7EB0FcF0932fd00D007F3C118B78E7"
     startBlock: 1499900
